@@ -1,5 +1,3 @@
-#Lines of total code 1044
-
 # Import files
 import StartNewDay
 from Varibles import ThingsFromStart

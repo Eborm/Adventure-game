@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Adventure-game/CopilotIndices/17.14.734.62261/CodeChunks.db
+/.vs/Adventure-game/CopilotIndices/17.14.734.62261/SemanticSymbols.db
+/.vs/Adventure-game/DesignTimeBuild/.dtbcache.v2
+/.vs/Adventure-game/FileContentIndex/01967621-cf75-48c6-8127-7133aa289c5e.vsidx
+/.vs/Adventure-game/FileContentIndex/0876644f-6773-4af9-8c7e-1e9723312e49.vsidx
+/.vs/Adventure-game/FileContentIndex/126196cf-0b03-4c08-b17e-05376ece43bb.vsidx
+/.vs/Adventure-game/FileContentIndex/897a2090-878e-45cf-bf98-834d9e3fa7e0.vsidx
+/.vs/Adventure-game/FileContentIndex/8a382458-5e5f-4400-9f97-0ef6d66ce597.vsidx
+/.vs/Adventure-game/v17/.futdcache.v2
+/.vs/Adventure-game/v17/.wsuo
+/.vs/Adventure-game/v17/DocumentLayout.backup.json
+/.vs/Adventure-game/v17/DocumentLayout.json
+/.vs/PythonSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json

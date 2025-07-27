@@ -20,10 +20,10 @@ namespace version4
 
 
             menutext.addtext("test text 1");
+            menutext.addtext("no", "test2");
             menutext.addtext("test text 2");
             menutext.addtext("test text 3");
             menutext.addtext("yes", "runshit");
-            menutext.addtext("no", "test2");
             while (true)
             {
                 menutext.writetext(new List<int> { 1, 2, 3, 4, 5});

@@ -51,7 +51,8 @@ namespace version4.classes
                 selectedText += input;
                 try
                 {
-                    while (textdictionary[selectedText].Item2 == "-") { selectedText++; }
+                    if (input == 1) { while (textdictionary[selectedText].Item2 == "-") { selectedText++; } }
+                    else { while (textdictionary[selectedText].Item2 == "-") { selectedText--; } }
                 }
                 catch
                 {

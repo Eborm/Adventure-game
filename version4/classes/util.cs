@@ -122,34 +122,35 @@ public class menu
         
     }
 
-    public Tuple<int, int> detect_direction(util util)
+    public int detect_direction(util util)
     {
-        Tuple<int, int> direction = new Tuple<int, int>(0, 0);
+        int direction = 0;
         var key = Console.ReadKey(false).Key;
         
         switch (key.ToString())
         {
             case "UpArrow":
-                direction = new Tuple<int, int>(1, 0);
+                direction = -1;
                 break;
 
             case "DownArrow":
-                direction = new Tuple<int, int>(-1, 0);
+                direction = 1;
+                break;
+
+            case "Enter":
+                direction = 2;
                 break;
 
             case "LeftArrow":
-                direction = new Tuple<int, int>(0, 1);
+                direction = 0;
                 break;
 
             case "RightArrow":
-                direction = new Tuple<int, int>(0, -1);
+                direction = 0;
                 break;
             default:
                 break;
         }
-        Console.Clear();
-        Console.WriteLine(direction.ToString());
-        util.writelineselectedtext("test text");
         return direction;
     }
 

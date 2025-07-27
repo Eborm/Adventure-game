@@ -19,9 +19,9 @@ namespace version4
             Console.ReadKey();
 
 
-            menutext.addtext("test text 1", "-");
-            menutext.addtext("test text 2", "-");
-            menutext.addtext("test text 3", "-");
+            menutext.addtext("test text 1");
+            menutext.addtext("test text 2");
+            menutext.addtext("test text 3");
             menutext.addtext("yes", "runshit");
             menutext.addtext("no", "test2");
             while (true)

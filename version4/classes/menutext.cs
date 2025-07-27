@@ -25,6 +25,11 @@ namespace version4.classes
             textcount++;
             textdictionary.Add(textcount, new Tuple<string, string> (text, test ));
         }
+        public void addtext(string text)
+        {
+            textcount++;
+            textdictionary.Add(textcount, new Tuple<string, string>(text, "-"));
+        }
 
         public void writetext(List<int> writethistext)
         {

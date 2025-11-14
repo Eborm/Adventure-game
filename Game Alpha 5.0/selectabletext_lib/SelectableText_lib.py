@@ -52,9 +52,10 @@ class SelectableText_lib:
                         os.system('cls')
                         succes = self._TextDictonary[self.SelectedText][1](self._TextDictonary[self.SelectedText][2])
                         if succes:
-                            input("item bought succesfully")
+                            input("item bought succesfully press\npress enter to continue")
+                            return
                         else:
-                            input("You do not have enough money")
+                            input("You do not have enough money\npress enter to continue")
     
     def writeText(self, Text : str):
         SplitText : list = list(Text)

@@ -3,7 +3,6 @@ from game_obj.player import Player
 from selectabletext_lib.SelectableText_lib import SelectableText_lib
 
 class Store():
-    
     def __init__(self, Player : Player):
         self.ST_lib : SelectableText_lib = SelectableText_lib()
         self.item_count : int = 0
@@ -15,7 +14,6 @@ class Store():
         self.Items[self.item_count] = temp_item
         self.ST_lib.addText(f"buy [{name}]", self.sell_item, self.item_count)
         self.item_count += 1
-        
     
     def tick(self):
         for key in self.Items:
